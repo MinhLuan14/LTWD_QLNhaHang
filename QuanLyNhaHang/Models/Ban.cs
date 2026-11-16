@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace QuanLyNhaHang.Models
+{
+    public class Ban
+    {
+        public int MaBan { get; set; }
+
+        public int SoBan { get; set; }
+
+        public int SoChoNgoi { get; set; }
+
+        public string TrangThai { get; set; }
+    }
+}
